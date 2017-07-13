@@ -1,0 +1,31 @@
+{
+  "name": "movie-search-cli-promises",
+  "version": "1.0.0",
+  "description": "A Node.js script that uses promises. It takes a search term as the first argument, and prints the names of the movies in the console which match that search term.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start": "node app/search.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spencerdezartsmith/movie-search-cli-promises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spencerdezartsmith/movie-search-cli-promises/issues"
+  },
+  "homepage": "https://github.com/spencerdezartsmith/movie-search-cli-promises#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request-promise": "^4.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  }
+}
