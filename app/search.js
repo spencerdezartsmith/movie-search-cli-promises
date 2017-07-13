@@ -14,30 +14,51 @@ const searchIMDB = (term) => {
     }
   }
 
-  rp(options)
+  return rp(options)
     .then(($) => {
+      let message
       const titles = $('.findSection')
         .first()
         .find($('.result_text'))
         .map((i, elem) => { return $(elem).text() })
         .toArray()
 
-        return titles.join('\n')
+        if (titles.length === 0) {
+          return `No films found for ${term}`
+        } else {
+          return titles
+        }
     })
-    .then(console.log)
     .catch((error) => {
       console.error(error.message)
     })
+}
+
+const print = (searchResults) => {
+  if (typeof searchResults !== 'string') {
+    return searchResults.join('\n')
+  } else {
+    return searchResults
+  }
 }
 
 const run = () => {
   const searchTerm = process.argv.slice(2).join('+')
 
   searchIMDB(searchTerm)
+    .then(movieTitles => print(movieTitles))
+    .then(console.log)
+    .catch(error => {
+      console.error(error.message)
+      throw error
+    })
 }
 
 if (!module.parent) {
   run()
 }
 
-module.exports = { searchIMDB }
+module.exports = {
+  searchIMDB,
+  print
+}

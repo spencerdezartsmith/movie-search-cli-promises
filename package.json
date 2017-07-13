@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --reporter spec",
+    "test:record": "VCR_MODE=record mocha --reporter spec",
+    "test": "VCR_MODE=playback mocha --reporter spec",
     "start": "node app/search.js"
   },
   "repository": {
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "chai": "^4.1.0",
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "replayer": "^2.1.3"
   }
 }
