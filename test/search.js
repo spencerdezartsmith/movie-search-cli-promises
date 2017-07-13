@@ -3,7 +3,7 @@ const { expect } = require('chai')
 const sinon = require('sinon')
 const { searchIMDB, printList } = require('../app/search.js')
 
-describe('Search movies from the command line', () => {
+describe('Search movies using IMDB', () => {
   it('it returns all of the movie titles for Rocky', () => {
     return searchIMDB('rocky')
       .then(results => {
