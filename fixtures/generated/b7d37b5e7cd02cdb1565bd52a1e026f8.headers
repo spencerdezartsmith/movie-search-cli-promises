@@ -1,7 +1,7 @@
 {
   "statusCode": 200,
   "headers": {
-    "date": "Thu, 13 Jul 2017 17:47:07 GMT",
+    "date": "Thu, 13 Jul 2017 20:43:17 GMT",
     "server": "Server",
     "x-frame-options": "SAMEORIGIN",
     "content-security-policy": "frame-ancestors 'self' imdb.com *.imdb.com *.media-imdb.com withoutabox.com *.withoutabox.com amazon.com *.amazon.com amazon.co.uk *.amazon.co.uk amazon.de *.amazon.de translate.google.com images.google.com www.google.com www.google.co.uk search.aol.com bing.com www.bing.com",
@@ -9,15 +9,15 @@
     "content-language": "en-US",
     "vary": "Accept-Encoding,User-Agent",
     "set-cookie": [
-      "uu=BCYq5a_bLkqLwjf8sFb48Gs7kC55tFyhy7OcShnHeHGVIpYTySz3gZTfO8nrhxgyCgJ0jb-PNqMx%0D%0ASHfa6QfVh4gWg3TTlxczlpJSVElGloAI6jNZd1fZd16NjAjTQwsg0GKWNXYwD9nftqcb7S6PYEsT%0D%0A6khDv4Po7AuoHp6UejwffSi5HC1nibkmaYoApPWkdYW5nLNhAwi9kid3sPaWPszLu34pyh_DNMNy%0D%0APRGfo4fogOZCh-3xVhrA20TxOX-C-CZjzqUp_SQCWuGFCgJmTv8d4pWHxEFDI0MklbAY_S2UpsE%0D%0A; Domain=.imdb.com; Expires=Tue, 31-Jul-2085 21:01:15 GMT; Path=/",
-      "session-id=140-5479301-7426321; Domain=.imdb.com; Expires=Tue, 31-Jul-2085 21:01:15 GMT; Path=/",
-      "session-id-time=2130688027; Domain=.imdb.com; Expires=Tue, 31-Jul-2085 21:01:15 GMT; Path=/"
+      "uu=BCYnJxMNL9sgeXmj7-1r-MSiHpZVPuMiHs164pvYKdX_xgsqwiFGqBcj-Qq7_QAYsXzXz4qAJkEH%0D%0AXBFSl6FEsVQMMUc4vlA2ensp4JP9GZneAuVe591nYy8vqwzzO_z8b9TUUN29nSE4ahvyIFLszQ9n%0D%0AhiEeb5R5EWITDGHHOnzx-hXDhOXCEYdTYBQLcszmtebEZ_DGs3Ias-B7dpCLUtsK8jCJB4Tozmhn%0D%0ADe9nerOohItBeOukYqQdRMamRjwflUwBzns3n4pBmcgw0CEWsMGxfALXAuy9t9kk8Ia3i253ziI%0D%0A; Domain=.imdb.com; Expires=Tue, 31-Jul-2085 23:57:24 GMT; Path=/",
+      "session-id=135-1432160-4838527; Domain=.imdb.com; Expires=Tue, 31-Jul-2085 23:57:24 GMT; Path=/",
+      "session-id-time=2130698597; Domain=.imdb.com; Expires=Tue, 31-Jul-2085 23:57:24 GMT; Path=/"
     ],
     "p3p": "policyref=\"http://i.imdb.com/images/p3p.xml\",CP=\"CAO DSP LAW CUR ADM IVAo IVDo CONo OTPo OUR DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC GOV OTC \"",
     "transfer-encoding": "chunked"
   },
   "url": "http://www.imdb.com:80/find?ref_=nv_sr_fn&q=all%20about%20my%20mother&s=all",
-  "time": 441,
+  "time": 509,
   "request": {
     "method": "GET",
     "headers": {
